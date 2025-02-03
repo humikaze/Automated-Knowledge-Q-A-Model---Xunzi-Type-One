@@ -325,7 +325,9 @@ animation: cosmicFlow 0.01s ease infinite;
 ```
 通过这种方式，可以让动画变得更加流畅和显著。
 
-
+### 13. 端口的错误调用
+  ** `test_flask.py` 和 `chat_html` 不可同时使用，否则会造成端口冲突错误。
+  
 ## 项目阶段总结
 
 ### 第一阶段：环境的部署和配置
