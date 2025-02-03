@@ -357,4 +357,8 @@ animation: cosmicFlow 0.01s ease infinite;
 
 ### 第八阶段：界面优化与微调
 这一阶段主要进行了界面优化、Markdown 文档编写与上传、模型试验和提示词微调。试做六型正式更名为巽字一型（“巽伊（一）”）。 
+
 - **结束时间**：2025年2月3日
+## 📜 许可证
+
+本项目采用 Apache License 2.0 许可协议。详情请见 [LICENSE](LICENSE) 文件。
