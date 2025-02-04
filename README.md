@@ -212,6 +212,15 @@ app = Flask(__name__)
 html_content = '''
 前端代码
 '''
+"""
+代码主体部分
+
+前后端数据映射表
+方向	键名	数据类型	说明
+前端→后端	user_message	字符串	用户输入的问题文本
+后端→前端	model_response	字符串	模型生成的回答内容
+
+"""
 # 根目录路由
 @app.route('/')
 def home():
@@ -233,6 +242,7 @@ def favicon():
 if __name__ == '__main__':
     app.run(debug=True)
  ```
+
 解释：
 使用 render_template_string 直接嵌入 HTML 内容到 Flask 应用中，确保网页能够正确渲染。
 /send_message 路由处理用户输入和模型返回的消息。
