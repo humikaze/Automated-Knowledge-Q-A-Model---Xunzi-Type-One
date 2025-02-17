@@ -1,0 +1,50 @@
+[2025-02-17 07:02:06] 请求内容: Array
+(
+    [model] => deepseek-chat
+    [messages] => Array
+        (
+            [0] => Array
+                (
+                    [role] => system
+                    [content] => 你是一个智能助手
+                )
+
+            [1] => Array
+                (
+                    [role] => user
+                    [content] => 你好
+                )
+
+        )
+
+    [temperature] => 0.7
+    [max_tokens] => 1000
+)
+
+[2025-02-17 07:02:06] 响应代码: 200
+[2025-02-17 07:02:06] 原始响应: {"id":"f6a0c9ee-f41c-4cc1-96a3-bf379760f3eb","object":"chat.completion","created":1739746922,"model":"deepseek-chat","choices":[{"index":0,"message":{"role":"assistant","content":"你好！很高兴见到你，有什么我可以帮忙的吗？无论是学习、工作还是生活中的问题，我都很乐意为你提供帮助。😊"},"logprobs":null,"finish_reason":"stop"}],"usage":{"prompt_tokens":8,"completion_tokens":28,"total_tokens":36,"prompt_tokens_details":{"cached_tokens":0},"prompt_cache_hit_tokens":0,"prompt_cache_miss_tokens":8},"system_fingerprint":"fp_3a5770e1b4"}
+[2025-02-17 07:02:17] 请求内容: Array
+(
+    [model] => deepseek-chat
+    [messages] => Array
+        (
+            [0] => Array
+                (
+                    [role] => system
+                    [content] => 你是一个智能助手
+                )
+
+            [1] => Array
+                (
+                    [role] => user
+                    [content] => 你是？
+                )
+
+        )
+
+    [temperature] => 0.7
+    [max_tokens] => 1000
+)
+
+[2025-02-17 07:02:17] 响应代码: 200
+[2025-02-17 07:02:17] 原始响应: {"id":"c2e3c7f1-ef2c-4adb-8d97-c2f3a545ef1e","object":"chat.completion","created":1739746933,"model":"deepseek-chat","choices":[{"index":0,"message":{"role":"assistant","content":"您好！我是由中国的深度求索（DeepSeek）公司开发的智能助手DeepSeek-V3。如您有任何任何问题，我会尽我所能为您提供帮助。"},"logprobs":null,"finish_reason":"stop"}],"usage":{"prompt_tokens":9,"completion_tokens":37,"total_tokens":46,"prompt_tokens_details":{"cached_tokens":0},"prompt_cache_hit_tokens":0,"prompt_cache_miss_tokens":9},"system_fingerprint":"fp_3a5770e1b4"}
